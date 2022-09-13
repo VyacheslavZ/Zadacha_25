@@ -1,6 +1,8 @@
-﻿Console.WriteLine($"\nВозведене числа A в натуральную степень B");
+﻿Console.WriteLine ("Введите число A и B, я возведу число A в натуральную степень B:");
 
-int Exponentiation(int numberA, int numberB){
+int Exponentiation(int numberA, int numberB)
+
+{
   int result = 1;
   for(int i=1; i <= numberB; i++){
     result = result * numberA;
